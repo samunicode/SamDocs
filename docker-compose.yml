@@ -6,7 +6,7 @@ services:
     #   context: .
     #   dockerfile: Dockerfile
     # image: docmost/docmost:latest
-    image: samunicode/samdocs:latest
+    image: sameerch4n/samdocs:latest
     depends_on:
       - db
       - redis
