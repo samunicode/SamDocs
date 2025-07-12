@@ -1,5 +1,5 @@
 FROM node:22-alpine AS base
-LABEL org.opencontainers.image.source="https://github.com/samunicode/SamDocs"
+LABEL org.opencontainers.image.source="https://github.com/samunicode/samdocs"
 
 FROM base AS builder
 
