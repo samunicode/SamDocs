@@ -2,9 +2,11 @@
 
 services:
   docmost:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    # image: docmost/docmost:latest
+    image: samunicode/SamDocs:latest
     depends_on:
       - db
       - redis
